@@ -1,0 +1,396 @@
+<！DOCTYPE html>
+< html  xmlns = “ http://www.w3.org/1999/xhtml ” >
+< 头 >
+< meta  http-equiv = “ Content-Type ”  content = “ text / html; charset = utf-8 ” />
+< title >网易严选 - 以严谨的态度，为中国消费者甄选天下优品</ title >
+< style  type = “ text / css ” >
+    身体 {
+        保证金： 0 px ;
+        最小宽度： 1090 像素 ;
+        background-color： #fff ;
+        font-size： 12 px ;
+        字体： 12 px / 1.5  “ Microsoft Yahei ”， “微软雅黑”， verdana ;
+    }
+    ul {
+        list-style： none ;    
+    }
+    .navtop {
+        保证金： 0 px ;
+        身高： 36 像素 ;
+        background-color：＃333 ;
+    }
+    .nav-jz {
+        宽度： 1090 像素 ;
+        margin-right： auto ;
+        margin-left： auto ;
+    }
+    .nav-p {
+        填充： 0 px ;
+        保证金： 0 px ;  
+        浮动：左 ;
+        颜色： #ccc ;
+        行高： 36 像素 ;
+        显示：块 ;
+        -webkit-margin-before： 0 em ;
+        -webkit-margin-after： 0 em ;
+        -webkit-margin-start： 0 px ;
+        -webkit-margin-end： 0 px ;    
+    }
+    .nav-n {
+        颜色：＃b4a078 ;
+        
+        浮动：左 ;
+        margin-left： 30 px ;   
+        
+        背景： url（ images / laba2.gif）中心 左 不重复 ;
+        
+    }
+    .nav-n  ul {
+        保证金：自动 ;
+        填充： 0 px ;
+    }
+    .nav-n  li {
+        行高： 36 像素 ;
+        保证金：自动 ;
+        填充： 0 px  0 px  0 px  26 px ;
+        背景：网址（ http://yanxuan.nosdn.127.net/d132c2561f18f1149d566a60d05fd9b7.gif）中心 左边 不重复 ;
+    }
+    .nav-n  a {
+        颜色：＃b4a078 ;  
+    }
+    .nav-right {
+        漂浮：对 ;
+        身高： 36 像素 ;
+    }
+    .login，.register，.nav-khzx {
+        颜色： #ccc ;
+        浮动：左 ;
+        行高： 35 像素 ;
+        保证金权利： 20 px ;
+        text-decoration： none ;
+        }
+    .nav-split {
+        保证金： 10 px  10 px  10 px  0 ;
+        身高： 16 像素 ;
+        border-left： 1 px  solid  ＃5c5c5c ;
+        颜色： #ccc ;
+        浮动：左 ;
+        行高： 35 像素 ;  
+        }
+    .nav-yxtd，.nav-qycg，.nav-khzx {
+        保证金权利： 10 px ;
+        行高： 35 像素 ;
+        浮动：左 ;
+        颜色： #ccc ;
+        text-decoration： none ;
+        }
+    .nav-khzx  >  span  >  i {
+        行高： 36 像素 ;
+        background-image： url（ http://mimg.127.net/hxm/yanxuan-web/p/20150730/style/img/header-s63686fd389-4827c33dfe.png）;
+        background-repeat： no-repeat ;
+        vertical-align： top ;
+        margin-top： 14 px ;
+        margin-left： 10 px ;
+        display： inline-block ;
+        宽度： 9 像素 ;
+        身高： 5 像素 ;
+        background-position： 0  -19 px ;
+    }
+    .nav-app {
+        颜色： #ccc ;
+        浮动：左 ;
+        行高： 35 像素 ;  
+    }
+    .nav-app  span  i {
+        浮动：左 ;
+        保证金权利： 6 px ;
+        margin-top： 12 px ;
+        background-position： 0  -4363 px ;
+        身高： 11 像素 ;
+        宽度： 7 像素 ;
+        background-image： url（ http://mimg.127.net/hxm/yanxuan-web/p/20150730/style/img/icon-normal-s934d596448-601013a26f.png）;
+    }
+    .nav-tab {
+        身高： 204 像素 ;
+        位置：相对 ;
+        background-color： #fff ;
+    }
+    .nav-row {
+        位置：相对 ;
+        宽度： 1090 像素 ;
+        身高： 204 像素 ;
+        margin-right： auto ;
+        margin-left： auto ;
+        background-color： #fff ;
+    }
+    .nav-logo {
+        位置：绝对 ;
+        顶部： 0 ;
+        左： 308 px ;
+        z-index： 0 ;
+        宽度： 400 像素 ;
+        身高： 150 像素 ;
+        显示：块 ;
+    }
+    .nav-inner {
+        位置：相对 ;
+        颜色：＃333 ;
+    }
+    .nav-search {
+        位置：相对 ;
+        margin-top： 65 px ;
+        漂浮：对 ;
+        宽度： 400 像素 ;
+        margin-right： -20 px ;
+    }
+    .nav-sousuo {
+        漂浮：对 ;
+        padding-left： 20 px ;
+        位置：相对 ;
+        margin-left： 0 px ;
+    }
+    .nav-sousuo-logo {
+        游标：指针 ;
+        padding-top： 9 px ;
+        漂浮：对 ;
+    }
+    .nav-sousuo-icon {
+        background-position： 0  -5537 px ;
+        身高： 22 像素 ;
+        宽度： 22 像素 ;
+        background-image： url（ http://mimg.127.net/hxm/yanxuan-web/p/20150730/style/img/icon-normal-s934d596448-601013a26f.png）;
+        溢出：隐藏 ;
+        display： inline-block ;
+        溢出：隐藏 ;
+        vertical-align： top ;
+        font-size： 12 px ;
+        字间距：正常 ;
+        字母间距：正常 ;
+    }
+    .nav-sousuo-text {
+        位置：绝对 ;
+        上： 14 px ;
+        左： 31 像素 ;
+        颜色：＃999 ;
+        显示：块 ;
+        line-height： 1 ;
+        游标：文字 ;
+        touch-action： none ;
+    }
+    .nav-sousuo-input {
+        z-index： 99 ;
+        保证金： 0 ;
+        填充： 0 ;
+        border： none ;
+        border-bottom： 1 px  solid  ＃D8CEBC ;
+        font-size： 12 px ;
+        行高： 23 像素 ;
+        颜色：＃333 ;
+        宽度： 252 像素 ;
+        margin-top： 9 px ;
+        身高： 23 像素 ;
+        漂浮：对 ;
+    }
+    .nav-gouwu {
+        padding-right： 0 ;
+        font-size： 14 px ;
+        身高： 31 像素 ;
+        宽度： 63 像素 ;
+        text-decoration： none ;
+        游标：自动 ;
+        漂浮：对 ;
+        padding-left： 20 px ;
+    }
+    .icon-gouwu-logo {
+        浮动：左 ;
+        display： inline-block ;
+        溢出：隐藏 ;
+        margin-top： 9 px ;
+        保证金权利： 5 px ; / * 5px * /
+        background-position： 0  -343 px ;
+        身高： 23 像素 ;
+        宽度： 23 像素 ;
+        background-image： url（ http://mimg.127.net/hxm/yanxuan-web/p/20150730/style/img/icon-normal-s934d596448-601013a26f.png）;
+    }
+    .icon-gouwu-shu {
+        浮动：左 ;
+        font-style： normal ;
+        font-weight： bold ;
+        display： inline-block ;
+        溢出：隐藏 ;
+        颜色： #fff ;
+        text-align： center ;
+        行高： 20 像素 ;
+        margin-left： -13 px ;
+        background-position： 0  -282 px ;
+        身高： 19 像素 ;
+        宽度： 19 像素 ;
+        background-image： url（ http://mimg.127.net/hxm/yanxuan-web/p/20150730/style/img/icon-normal-s934d596448-601013a26f.png）;
+        background-repeat： no-repeat ;
+    }
+    .tab-list {
+        保证金： 0 ;
+        填充： 0 ;
+        显示：块 ;
+        浮动：左 ;
+        margin-top： 56 px ;
+        line-height： 1 ;
+        身高： 30 像素 ;
+        位置：相对 ;
+        宽度： 100 ％ ;
+        font-weight： 700 ;
+        list-style： none ;
+    }
+    .tab-list-home {
+        保证金： 0 ;
+        填充： 0 ;
+        display： list-item ;
+        margin-left： 12 px ;
+        padding-left： 30 px ;
+        浮动：左 ;
+        填充： 6 px  29 px  0 ;
+        font-size： 14 px ;
+    }
+    .tab-list-item {
+        保证金： 0 ;
+        填充： 0 ;
+        display： list-item ;
+        浮动：左 ;
+        填充： 6 px  30 px  0 ;
+        font-size： 14 px ;
+    }
+    .tab-list-a {
+        位置：相对 ;
+        z-index： 2 ;
+        显示：块 ;
+        padding-bottom： 6 px ;
+        颜色：＃000 ;
+        text-decoration： none ;
+        font-size： 14 px ;
+    }
+    .tab-list-split {
+        保证金： 0 ;
+        填充： 0 ;
+        border-left： 1 px  solid  #ccc ;
+        身高： 20 像素 ;
+        margin-top： 3 px ;
+        浮动：左 ;
+        display： list-item ;
+    }
+    .tab-list-home  >  .tab-list-a {
+        border-bottom： 3 px  solid  ＃b4a078 ;
+        颜色：＃b4a078 ;  
+    }
+    .tab-list-a ：悬停 {
+        border-bottom： 3 px  solid  ＃b4a078 ;
+        颜色：＃b4a078 ;
+    }
+    .g-bd-logo {
+        位置：相对 ;
+        溢出：隐藏 ;
+        身高： 420 像素 ;
+    }
+    .g-bd-tu {
+        身高： 420 像素 ;
+        变换： translate3d（ 0， 0， 0）;
+        z-index： 0 ;
+        溢出：隐藏 ;
+        保证金： 0 ;
+        填充： 0 ;
+    }
+      .tab-list-a ：悬停 {
+        border-bottom： 3 px  solid  ＃b4a078 ;
+        颜色：＃b4a078 ;
+    }
+    .g-bd-logo {
+        位置：相对 ;
+        溢出：隐藏 ;
+        身高： 420 像素 ;
+    }
+    .g-bd-tu {
+        身高： 420 像素 ;
+        变换： translate3d（ 0， 0， 0）;
+        z-index： 0 ;
+        溢出：隐藏 ;
+        保证金： 0 ;
+        填充： 0 ;
+    }
+</ style >
+</ head >
+
+< body >
+	< header >
+        < div  class = “ navtop ” >
+        	< div  class = “ nav-jz ” >
+            	< p  class = “ nav-p ” >好的生活，没那么贵</ p >
+                < div  class = “ nav-n ” >
+                	< ul >
+                    	< li >
+                        	< 一个 HREF = “ https://www.baidu.com ” 目标 = “ _blank ” >端午假期部分商品暂停发货公告</ 一 >
+                        </ li >
+                    </ ul >
+                </ div >
+				< div  class = “ nav-right ” >
+                	< 一 类 = “登录”  HREF = “ http://www.baidu.com ” >登录</ 一 >
+                    < 一 类 = “寄存器” >注册</ 一 >
+                    < div  class = “ nav-split ” > </ div >
+                    < 一 类 = “ NAV-yxtd ” >严选态度</ 一 >
+                    < div  class = “ nav-split ” > </ div >
+                    < 一 类 = “ NAV-qycg ” >企业采购</ 一 >
+                    < div  class = “ nav-split ” > </ div >
+                    < div  class = “ nav-khzx ” >
+                    	< span >
+                        	客户服务
+                            < i > </ i >
+                        </ span >
+                    </ div >
+                    < div  class = “ nav-split ” > </ div >
+                    < div  class = “ nav-app ” >
+                    	< span >下载APP < i > </ i > </ span >
+                    </ div >
+                </ div >
+            </ div >
+        </ div >
+    </ header >
+    < div  class = “ nav-tab ” >
+    	< div  class = “ nav-row ” >
+        	< 一 类 = “ NAV-标志” > < IMG  SRC = “ http://yanxuan.nosdn.127.net/dbabd3aef45557e2df4512c0d3df53eb.gif?r=1495939534922 ” > </ 一 >
+            < div  class = “ nav-inner ” >
+                < div  class = “ nav-search ” >
+                    < 一 类 = “ NAV-垢污”  HREF = “＃” >
+                        < i  class = “ icon-gouwu-logo ” > </ i >
+                        < i  class = “ icon-gouwu-shu ” > 0 </ i >
+                    </ a >
+                    < div  class = “ nav-sousuo ” >
+                        < div  class = “ nav-sousuo-logo ” > < i  class = “ nav-sousuo-icon ” > </ i > </ div >
+                        < div  class = “ nav-sousuo-text ” >新疆长绒棉毛巾仅12元买送硬抽纸</ div >
+                        < input  type = “ text ”  maxlength = “ 100 ”  autocomplete = “ off ”  class = “ nav-sousuo-input ”  value = “ ”  data-searchurl = “＃” >
+                    </ div >
+                </ div >
+                < ul  class = “ tab-list ” >
+                    < li  class = “ tab-list-home ” >
+                        < 一 类 = “标签一览一个” 标题 = “首页”  HREF = “＃” >首页</ 一 >
+                    </ li >
+                    < 锂 类 = “制表列表项” > < 一 类 = “标签一览一个”  HREF = “＃” >居家</ 一 > </ 李 >
+                    < 锂 类 = “制表列表项” > < 一 类 = “标签一览一个”  HREF = “＃” >餐厨</ 一 > </ 李 >
+                    < 锂 类 = “制表列表项” > < 一 类 = “标签一览一个”  HREF = “＃” >配件</ 一 > </ 李 >
+                    < 锂 类 = “制表列表项” > < 一 类 = “标签一览一个”  HREF = “＃” >服装</ 一 > </ 李 >
+                    < 锂 类 = “制表列表项” > < 一 类 = “标签一览一个”  HREF = “＃” >洗护</ 一 > </ 李 >
+                    < 锂 类 = “制表列表项” > < 一 类 = “标签一览一个”  HREF = “＃” >婴童</ 一 > </ 李 >
+                    < 锂 类 = “制表列表项” > < 一 类 = “标签一览一个”  HREF = “＃” >杂货</ 一 > </ 李 >
+                    < 锂 类 = “制表列表项” > < 一 类 = “标签一览一个”  HREF = “＃” >饮食</ 一 > </ 李 >
+                    < 锂 类 = “制表列表项” > < 一 类 = “标签一览一个”  HREF = “＃” >志趣</ 一 > </ 李 >
+                    < li  class = “ tab-list-split ” > </ li >
+                    < 锂 类 = “制表列表项” > < 一 类 = “标签一览一个”  HREF = “＃” >专题</ 一 > </ 李 >
+                    < 锂 类 = “制表列表项” > < 一 类 = “标签一览一个”  HREF = “＃” >甄选家</ 一 > </ 李 >
+                </ ul >
+            </ div >               
+    	</ div >
+    </ div >
+    < div  class = “ g-bd ” >
+        < div  class = “ g-bd-logo ” >
+            < IMG  类 = “ JS-IMG ”  SRC = “ http://yanxuan.nosdn.127.net/8329b0655bbf5b97ab3e149477a04067.jpg?imageView ＆安培 ;质量= 95 ＆安培 ;缩略图= 1920x480 ”  ALT = “推荐围巾特惠” >
+        </ div >
+    </ div >
+</ body >
+</ html >
